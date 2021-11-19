@@ -1,8 +1,5 @@
-# Android 1-to-1 Tutorial
-
-*English | [中文](README.zh.md)*
-
-This tutorial enables you to quickly get started in your development efforts to create an Android app with real-time video calls, voice calls, and interactive broadcasting.
+﻿
+# Agora Demo App for 1:1 Voice and video calling ⚡️
 
 With this sample app, you can:
 
@@ -10,6 +7,72 @@ With this sample app, you can:
 - Mute / unmute audio
 - Switch camera
 - Setup resolution, frame rate and bit rate
+
+![Author](https://img.shields.io/badge/author-garimasingh128-orange)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
+![Platform](https://img.shields.io/badge/platform-Visual%20Studio%20Code-blue)
+![Maintained](https://img.shields.io/maintenance/yes/2021)
+![Release Date](https://img.shields.io/github/release-date/garimasingh128/agora-demo-app)
+![Issues](https://img.shields.io/github/issues/garimasingh128/agora-demo-app)
+![Stars GitHub](https://img.shields.io/github/stars/garimasingh128/agora-demo-app)
+![Language](https://img.shields.io/github/languages/top/garimasingh128/agora-demo-app)
+![Size](https://img.shields.io/github/repo-size/garimasingh128/agora-demo-app)
+![Image](1.jpeg)
+![Image](2.jpeg)
+
+
+## Contributions and PR
+
+ - PRs should be generated against `master`
+
+
+# Web Tutorial For React & Basic Video Call
+
+## Prerequisites
+
+- nodejs LTS
+- A web browser
+
+### Obtain an App ID
+
+To build and run the sample application, get an App ID:
+1. Create a developer account at [agora.io](https://dashboard.agora.io/signin/). Once you finish the signup process, you will be redirected to the Dashboard.
+
+2. Navigate in the Dashboard tree on the left to **Projects** > **Project List**.
+
+3. Save the **App ID** from the Dashboard for later use.
+
+4. Generate a temp **Access Token** (valid for 24 hours) from dashboard page with given channel name, save for later use.
+
+   > To ensure communication security, Agora uses tokens (dynamic keys) to authenticate users joining a channel.
+   >
+   > Temporary tokens are for demonstration and testing purposes only and remain valid for 24 hours. In a production environment, you need to deploy your own server for generating tokens. See [Generate a Token](https://docs.agora.io/en/Interactive Broadcast/token_server)for details.
+
+
+### Install dependencies and integrate the Agora Video SDK
+
+1. Using the Terminal app, enter the `install` command in your project directory. This command installs libraries that are required to run the sample application.
+    ``` 
+    npm install
+    ```
+2. Start the application by entering the `start` command.
+    ``` 
+    npm start
+    ```
+    Run app <br/> in development mode
+    Go to [http://localhost:3000](http://localhost:3000) and view it in a browser.
+
+    If you edit, the page will reload. < br / >
+    You will also see any lint errors in the console.
+
+    The `run build` command is for production purposes and minifies code.
+    ``` 
+    npm run build
+    ```
+
+
+# Android 1-to-1 Tutorial
+
 
 ## Prerequisites
 
@@ -79,18 +142,3 @@ Copy from SDK|Copy to Project Folder
 Open project with Android Studio, connect your Android device, build and run.
       
 Or use `Gradle` to build and run.
-
-
-## Contact Us
-
-- For potential issues, take a look at our [FAQ](https://docs.agora.io/en/faq) first
-- Dive into [Agora SDK Samples](https://github.com/AgoraIO) to see more tutorials
-- Take a look at [Agora Use Case](https://github.com/AgoraIO-usecase) for more complicated real use case
-- Repositories managed by developer communities can be found at [Agora Community](https://github.com/AgoraIO-Community)
-- You can find full API documentation at [Document Center](https://docs.agora.io/en/)
-- If you encounter problems during integration, you can ask question in [Stack Overflow](https://stackoverflow.com/questions/tagged/agora.io)
-- You can file bugs about this sample at [issue](https://github.com/AgoraIO/Basic-Video-Call/issues)
-
-## License
-
-The MIT License (MIT)
